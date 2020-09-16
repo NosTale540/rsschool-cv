@@ -1,0 +1,91 @@
+body {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link { 
+   text-decoration: none;
+   color: #000 ;
+} 
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+} 
+
+a:active {
+    text-decoration: none; 
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color: orange; 
+    
+} 
+
+.container {
+    max-width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+li a {
+
+}
+
+.aside {
+    width: 25%;
+    min-width: 200px;
+    float: left;
+    height: 100%;
+}
+
+.avatar img {
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.user_bio {
+    padding: 10px 10px;
+}
+
+.user_info {
+    padding: 15px 10px;
+}
+
+.contact {
+    padding: 10px 10px;
+}
+
+.contact span {
+    font-weight: bold;
+}
+
+.main {
+    width: 70%;
+    height: auto;
+    float: right;
+    padding: 25px 20px;
+}
+
+.code_example {
+    background-color: #FFFFFA;
+    border: 1px solid;
+    padding: 8px;
+}
